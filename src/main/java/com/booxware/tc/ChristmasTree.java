@@ -15,8 +15,8 @@ public class ChristmasTree {
 	public ArrayList<String> list = new ArrayList<String>();
 	private static String hash;
 
-	
-	// Constructor		
+
+	// Constructor
 	public ChristmasTree() {
 		// initialize fields
 		list = new ArrayList<String>();
@@ -28,12 +28,12 @@ public class ChristmasTree {
 		hash = s;
 		list.clear();
 	}
-			
+
 	// to be removed
 	public ChristmasTree(String s) {
 		// TODO implement this after S-38154
 	}
-	
+
 // Main Method
 public static void main(String[] args) throws Exception {
 	// without a star on top
